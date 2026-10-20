@@ -21,3 +21,4 @@ def create_and_get_courier_data(request):
     
     # Возвращаем данные курьера
     return login, password, first_name
+

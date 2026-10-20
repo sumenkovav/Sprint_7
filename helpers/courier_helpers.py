@@ -23,3 +23,4 @@ def register_new_courier_and_return_login_password():
         login_pass.append(first_name)
 
     return login_pass
+

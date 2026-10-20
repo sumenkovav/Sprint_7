@@ -74,3 +74,4 @@ class TestCreateCourier:
             expected_message = "Этот логин уже используется. Попробуйте другой."
             assert response.json()["message"] == expected_message, \
                 f"Ожидалось сообщение '{expected_message}', получено {response.json()}"
+

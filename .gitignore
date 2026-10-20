@@ -46,3 +46,5 @@ drivers/*.exe
 drivers/*.zip         
 *.zip                 
 *.tar.gz              
+allure-results/
+allure-report/ 

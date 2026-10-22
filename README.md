@@ -35,24 +35,3 @@ cd Sprint_7
 ## 📊 Отчёт Allure
 
 В проекте реализована интеграция с Allure для формирования отчётов о тестировании.
-
-### Важное примечание
-Папки `allure-results/` (сырые данные) и `allure-report/` (HTML-отчёт) **намеренно исключены** из репозитория и добавлены в `.gitignore`.
-
-### Как получить отчёт?
-
-
-1.  **Запустите тесты**, чтобы сгенерировать данные:
-    ```powershell
-    pytest tests/ -v --alluredir=allure-results
-    ```
-    *(Убедитесь, что в папке `allure-results` появились JSON-файлы).*
-
-2.  **Сгенерируйте отчёт** (требуется установленный Allure CLI):
-    ```powershell
-    allure generate allure-results -o allure-report --clean
-    ```
-    Или запустите интерактивный сервер:
-    ```powershell
-    allure serve allure-results
-    

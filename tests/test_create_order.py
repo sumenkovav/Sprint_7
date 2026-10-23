@@ -27,5 +27,4 @@ class TestCreateOrder:
             
         with allure.step("Проверяем, что track — это число"):
             assert isinstance(response.json()["track"], int), "track должен быть числом"
-
-            
+         

@@ -102,3 +102,4 @@ class TestLoginCourier:
             expected_message = "Недостаточно данных для входа"
             assert response.json()["message"] == expected_message, \
                 f"Ожидалось сообщение '{expected_message}', получено {response.json()}"
+            

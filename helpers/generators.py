@@ -17,4 +17,3 @@ def generate_random_password():
 def generate_random_first_name():
     letters = string.ascii_lowercase
     return ''.join(random.choice(letters) for i in range(10))
-
